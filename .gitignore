@@ -1,0 +1,18 @@
+# 依存パッケージ（ファイル数が膨大になるため必須）
+node_modules/
+.venv/
+venv/
+ENV/
+
+# 各種キャッシュやビルド成果物
+.eslintcache
+dist/
+build/
+*.pyc
+__pycache__/
+
+# OSやエディタが自動生成する不要ファイル
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
